@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: hsl(218, 23%, 16%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  padding: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background-color: hsl(217, 19%, 24%);
+  max-width: 500px;
+  width: 100%;
+  padding: 2.5rem 2rem 3.5rem;
+  border-radius: 15px;
+  text-align: center;
+  position: relative;
+}
+
+.advice-id {
+  color: hsl(150, 100%, 66%);
+  font-size: 0.8rem;
+  letter-spacing: 3px;
+  margin-bottom: 1.5rem;
+}
+
+.advice-text {
+  color: hsl(193, 38%, 86%);
+  font-size: 1.4rem;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+
+.divider {
+  height: 1px;
+  background-color: hsl(217, 19%, 38%);
+  margin-bottom: 2.5rem;
+}
+
+.dice-btn {
+  position: absolute;
+  left: 50%;
+  bottom: -30px;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  background-color: hsl(150, 100%, 66%);
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.dice-btn:hover {
+  box-shadow: 0 0 30px hsl(150, 100%, 66%);
+  transform: translateX(-50%) scale(1.1) rotate(15deg);
+}
+
+/* Responsive text */
+@media (max-width: 480px) {
+  .advice-text {
+    font-size: 1.1rem;
+  }
+}
