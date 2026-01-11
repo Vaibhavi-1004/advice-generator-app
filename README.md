@@ -50,6 +50,7 @@ Structuring a small frontend project professionally
 **Author**
 
 Bandaru Vaibhavi
+
 GitHub: https://github.com/your-github-username
 
 **Conclusion**
